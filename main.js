@@ -131,12 +131,7 @@ addEventListener("DOMContentLoaded", (event) => {
             if (snakeX > 30) snakeX = 1;
             if (snakeX === 0) snakeX = 30;
 
-            for (i = 0; i < snakelength; i++) {
 
-
-                gamewindow.innerHTML += `<div class="snake" style="grid-area: ${snaketail[i][0]} / ${snaketail[i][1]}"></div>`
-
-            }
         }
 
     }, 120);
